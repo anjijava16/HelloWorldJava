@@ -2,7 +2,7 @@
 
 export env=$1
 export version=$2
-JAR_NAME=/home/travis/build/madhukotagiri/HelloWorldJava/target/HelloWorldJava-${version}.jar
+JAR_NAME=/home/travis/build/anjijava16/HelloWorldJava/target/HelloWorldJava-${version}.jar
 CLASS_NAME="com.example.firstci.MyFirstCIExample"
 
 if [ ${env} = "dev" ] || [ ${env} = "staging" ] || [ ${env} = "prod" ]; then 
