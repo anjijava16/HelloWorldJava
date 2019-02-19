@@ -2,6 +2,8 @@ package com.example.firstci;
 
 /**
 
+@ANji
+
 Added for Travis changes purposes
 **/
 public class MyFirstCIExample {
